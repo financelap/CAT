@@ -4,27 +4,29 @@ import styled from 'styled-components'
 const Nav: React.FC = () => {
   return (
     <StyledNav>
-      <StyledLink>
+      <StyledLink
         target="_blank"
-        href="https://bscscan.com/address/0xb7fb8c26300fdd2d5798f3495099884f2ab0d414"
-        Lps Contract
+        href="#"
+      >
+        YFURMaster Contract
       </StyledLink>
-      <StyledLink>
+      {/*<StyledLink
         target="_blank"
-        href="https://catsswap.info/pair/0xb7fb8c26300Fdd2D5798F3495099884F2aB0D414">
-        Catswap FCAT-BNB
-      </StyledLink> 
-      <StyledLink target="_blank" href="https://exchange.cats.finance/">
-        Exchange
+        href="https://uniswap.info/pair/0xce84867c3c02b05dc570d0135103d3fb9cc19433"
+      >
+        SushiSwap SUSHI-ETH
+      </StyledLink> */}
+      <StyledLink target="_blank" href="#">
+        Discord
       </StyledLink>
-      <StyledLink target="_blank" href="https://app.cats.finance/">
-        Farm
+      <StyledLink target="_blank" href="#">
+        Github
       </StyledLink>
-      <StyledLink target="_blank" href="https://twitter.com/catsexchange">
+      <StyledLink target="_blank" href="#">
         Twitter
       </StyledLink>
-      <StyledLink target="_blank" href="http://t.me/catsexchange">
-        Telegram
+      <StyledLink target="_blank" href="#">
+        Medium
       </StyledLink>
     </StyledNav>
   )
