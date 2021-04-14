@@ -2,14 +2,14 @@ import BigNumber from 'bignumber.js'
 import { ethers } from 'ethers'
 
 BigNumber.config({
-  EXPONENTIAL_AT: 1000,
-  DECIMAL_PLACES: 80,
+  EXPONENTIAL_AT: 1500000,
+  DECIMAL_PLACES: 1600000,
 })
 
 const GAS_LIMIT = {
   STAKING: {
-    DEFAULT: 200000,
-    SNX: 850000,
+    DEFAULT: 100000,
+    SNX: 150000,
   },
 }
 
