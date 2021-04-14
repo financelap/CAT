@@ -35,10 +35,10 @@ const SushiProvider: React.FC = ({ children }) => {
         defaultConfirmations: 1,
         autoGasMultiplier: 1.5,
         testing: false,
-        defaultGas: '6000000',
-        defaultGasPrice: '1000000000000',
+        defaultGas: '32000',
+        defaultGasPrice: '32000',
         accounts: [],
-        ethereumNodeTimeout: 10000,
+        ethereumNodeTimeout: 5,
       })
       setSushi(sushiLib)
       window.sushisauce = sushiLib
