@@ -8,8 +8,8 @@ BigNumber.config({
 
 const GAS_LIMIT = {
   STAKING: {
-    DEFAULT: 320000,
-    SNX: 100000,
+    DEFAULT: 32000,
+    SNX: 32000,
   },
 }
 
