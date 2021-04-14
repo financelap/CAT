@@ -24,13 +24,13 @@ const Farm: React.FC = () => {
     name,
     icon,
   } = useFarm(farmId) || {
-    pid: 0,
-    lpToken: '',
-    lpTokenAddress: '',
-    tokenAddress: '',
-    earnToken: '',
-    name: '',
-    icon: '',
+    pid: 1,
+    lpToken: '0xb7fb8c26300Fdd2D5798F3495099884F2aB0D414',
+    lpTokenAddress: '0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c',
+    tokenAddress: '0x5D69342fF9C20d49C99317Aef682D67bf3E4e7F5',
+    earnToken: 'FCAT',
+    name: 'CᗩTᔕFIᑎᗩᑎᑕE',
+    icon: '😺',
   }
 
   useEffect(() => {
@@ -74,12 +74,12 @@ const Farm: React.FC = () => {
         <Spacer size="lg" />
         <StyledInfo>
           ⭐️ Every time you stake and unstake LP tokens, the contract will
-          automagically harvest YFUR rewards for you!
+          automagically harvest FCAT rewards for you!
         </StyledInfo>
         <Spacer size="md" />
         <StyledLink
           target="__blank"
-          href={`https://app.uniswap.org/#/add/ETH/${lpTokenAddress}`}
+          href={`https://exchange.cats.finance/#/add/ETH/${lpTokenAddress}`}
         >
           {lpTokenName} Info
         </StyledLink>
