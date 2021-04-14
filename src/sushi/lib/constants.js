@@ -37,7 +37,7 @@ export const addressMap = {
 }
 
  export const contractAddresses = {
-   cake: {
+   sushi: {
      56: '0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82',
    },
    masterChef: {
@@ -46,8 +46,8 @@ export const addressMap = {
    wbnb: {
      56: '0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c',
    },
-   fcat: {
-     56: '0x5D69342fF9C20d49C99317Aef682D67bf3E4e7F5'
+   xsushi: {
+     56: '0x5D69342fF9C20d49C99317Aef682D67bf3E4e7F5',
    }
  }
 
