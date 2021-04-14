@@ -10,23 +10,23 @@ const Nav: React.FC = () => {
       >
         YFURMaster Contract
       </StyledLink>
-      {/*<StyledLink
+      {/<StyledLink
         target="_blank"
-        href="https://uniswap.info/pair/0xce84867c3c02b05dc570d0135103d3fb9cc19433"
+        href="https://catsswap.info/pair/0xb7fb8c26300Fdd2D5798F3495099884F2aB0D414"
       >
         SushiSwap SUSHI-ETH
-      </StyledLink> */}
-      <StyledLink target="_blank" href="#">
-        Discord
+      </StyledLink> /}
+      <StyledLink target="_blank" href="https://exchange.cats.finance/">
+        Exchange
       </StyledLink>
-      <StyledLink target="_blank" href="#">
-        Github
+      <StyledLink target="_blank" href="https://app.cats.finance/">
+        Farm
       </StyledLink>
-      <StyledLink target="_blank" href="#">
+      <StyledLink target="_blank" href="https://twitter.com/catsexchange">
         Twitter
       </StyledLink>
-      <StyledLink target="_blank" href="#">
-        Medium
+      <StyledLink target="_blank" href="http://t.me/catsexchange">
+        Telegram
       </StyledLink>
     </StyledNav>
   )
