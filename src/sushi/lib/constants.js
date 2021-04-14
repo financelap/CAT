@@ -460,7 +460,7 @@ export const CHAIN_ID = 56
 
 export const contractAddresses = {
   sushi: {
-   56: '0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82',
+   56: '0xCf4829F6Ab5FD348242F6B8435dB9cE41DB34074',
   },
   masterChef: {
    56: '0x73feaa1eE314F8c655E354234017bE2193C9E24E',
@@ -501,8 +501,8 @@ export const supportedPools = [
       
     },
     name: 'mOnEy pRinteR!!!!',
-    symbol: 'USDT-ETH LP',
-    tokenSymbol: 'DAI',
+    symbol: 'BUSD-BNB LP',
+    tokenSymbol: 'BUSD',
     icon: <img src={paw} width="75" height="75"/>
   },
   {
@@ -515,8 +515,8 @@ export const supportedPools = [
       
     },
     name: 'Y-F-EYE',
-    symbol: 'YFI-ETH LP',
-    tokenSymbol: 'DAI',
+    symbol: 'YFI-BNB LP',
+    tokenSymbol: 'CAKE',
     icon: <img src={eye} width="75" height="75"/>
   },
   {
@@ -529,8 +529,8 @@ export const supportedPools = [
       
     },
     name: 'Yarn Link',
-    symbol: 'LINK-ETH LP',
-    tokenSymbol: 'DAI',
+    symbol: 'CAT-BNB LP',
+    tokenSymbol: 'CAT',
     icon: <img src={yarn} width="70" height="70"/>
   },
   {
@@ -543,8 +543,8 @@ export const supportedPools = [
       
     },
     name: 'Made in America',
-    symbol: 'USDC-ETH LP',
-    tokenSymbol: 'DAI',
+    symbol: 'USDC-BNB LP',
+    tokenSymbol: 'USDC',
     icon: <img src={can} width="70" height="70"/>
   },
    {
@@ -557,7 +557,7 @@ export const supportedPools = [
       
     },
     name: "Fish is \n Dai'd 😿",
-    symbol: 'Dai-ETH LP',
+    symbol: 'Dai-BNB LP',
     tokenSymbol: 'DAI',
     icon: <img src={fishbone} width="80" height="80"/>,
   },
