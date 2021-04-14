@@ -157,7 +157,7 @@ export const unstake = async (masterChefContract, pid, amount, account) => {
   return masterChefContract.methods
     .withdraw(
       pid,
-      new BigNumber(amount).times(new BigNumber(10).pow(18)).toString(),
+      new BigNumber(amount).times(new BigNumber(6).pow(9)).toString(),
     )
     .send({ from: account })
     .on('transactionHash', (tx) => {
