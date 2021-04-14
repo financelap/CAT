@@ -108,7 +108,7 @@ const Balances: React.FC = () => {
           <div />
           <FootnoteValue>
             <PendingRewards /> 
-            {'FCAT ' + ' '}
+            {'FCAT ' + 'CAT'}
           </FootnoteValue>
         </Footnote>
       </Card>
@@ -124,7 +124,7 @@ const Balances: React.FC = () => {
         <Footnote>
           New rewards per block 
           <div />
-          <FootnoteValue>10 YFUR</FootnoteValue>
+          <FootnoteValue>10 FCAT</FootnoteValue>
         </Footnote>
       </Card>
     </TheDiv>
