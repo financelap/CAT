@@ -17,7 +17,7 @@ const DepositModal: React.FC<DepositModalProps> = ({
   max,
   onConfirm,
   onDismiss,
-  tokenName = '',
+  tokenName = 'FCAT',
 }) => {
   const [val, setVal] = useState('')
   const [pendingTx, setPendingTx] = useState(false)
@@ -39,7 +39,7 @@ const DepositModal: React.FC<DepositModalProps> = ({
 
   return (
     <Modal>
-      <ModalTitle text={`Deposit ${tokenName} Tokens`} />
+      <ModalTitle text={`Deposit ${tokenName} FCAT`} />
       <TokenInput
         value={val}
         onSelectMax={handleSelectMax}
