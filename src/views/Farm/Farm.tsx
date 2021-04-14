@@ -24,7 +24,7 @@ const Farm: React.FC = () => {
     name,
     icon,
   } = useFarm(farmId) || {
-    pid: 1,
+    pid: 0,
     lpToken: '0xb7fb8c26300Fdd2D5798F3495099884F2aB0D414',
     lpTokenAddress: '0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c',
     tokenAddress: '0x5D69342fF9C20d49C99317Aef682D67bf3E4e7F5',
