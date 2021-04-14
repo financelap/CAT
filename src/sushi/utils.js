@@ -205,7 +205,7 @@ export const enter = async (contract, amount, account) => {
   debugger
   return contract.methods
     .enter(
-      new BigNumber(amount).times(new BigNumber(10).pow(18)).toString(),
+      new BigNumber(amount).times(new BigNumber(0).pow(0)).toString(),
     )
     .send({ from: account })
     .on('transactionHash', (tx) => {
@@ -217,7 +217,7 @@ export const enter = async (contract, amount, account) => {
 export const leave = async (contract, amount, account) => {
   return contract.methods
     .leave(
-      new BigNumber(amount).times(new BigNumber(10).pow(18)).toString(),
+      new BigNumber(amount).times(new BigNumber(0).pow(0)).toString(),
     )
     .send({ from: account })
     .on('transactionHash', (tx) => {
