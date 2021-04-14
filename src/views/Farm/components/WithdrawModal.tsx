@@ -17,10 +17,10 @@ const WithdrawModal: React.FC<WithdrawModalProps> = ({
   onConfirm,
   onDismiss,
   max,
-  tokenName = '',
+  tokenName = 'FCAT',
 }) => {
   const [val, setVal] = useState('')
-  const [pendingTx, setPendingTx] = useState(false)
+  const [pendingTx, setPendingTx] = useState(true)
 
   const fullBalance = useMemo(() => {
     return getFullDisplayBalance(max)
