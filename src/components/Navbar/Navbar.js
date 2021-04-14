@@ -67,7 +67,7 @@ export const Navbar = (props) => {
               <a
                 style={{ color: 'rgb(15, 224, 15)' }}
                 className="stakeBTN"
-                href="https://stake.cats.finance"
+                href="https://staking.cats.finance"
               >
                 VAULT
               </a>
