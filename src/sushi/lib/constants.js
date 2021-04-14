@@ -36,20 +36,20 @@ export const addressMap = {
 
 }
 
- export const contractAddresses = {
-   sushi: {
-     56: '0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82',
-   },
-   masterChef: {
-     56: '0x73feaa1eE314F8c655E354234017bE2193C9E24E',
-   },
-   wbnb: {
-     56: '0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c',
-   },
-   xsushi: {
-     56: '0x5D69342fF9C20d49C99317Aef682D67bf3E4e7F5',
-   }
- }
+// export const contractAddresses = {
+//   sushi: {
+//     56: '0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82',
+ //  },
+  // masterChef: {
+  //   56: '0x73feaa1eE314F8c655E354234017bE2193C9E24E',
+ //  },
+ //  wbnb: {
+ //    56: '0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c',
+ //  },
+ //  xsushi: {
+ //    56: '0x5D69342fF9C20d49C99317Aef682D67bf3E4e7F5',
+ //  }
+// }
 
 
 /*
