@@ -37,13 +37,13 @@ const DisclaimerModal: React.FC<DisclaimerModal> = ({
       return (
         <div>
           <p> With great pleasure we would like to invite you the launch
-              of Omakase Bar!
+              of CatCaptain!
           </p>
           <p> Omakase Bar will be the home of our new frontend, and provides
               an interface for all interactions with the SushiSwap protocol.
           </p>
-          <p> Development will be on going, and sushiswapclassic will still
-              exist in the interim as we work to get Omakase Bar completely
+          <p> Development will be on going, and CatsFinance will still
+              exist in the interim as we work to get CatCaptain completely
               polished.
           </p>
         </div>
@@ -51,8 +51,8 @@ const DisclaimerModal: React.FC<DisclaimerModal> = ({
     } else {
       return (
         <div>
-          <StyledLink target="_blank" href="https://sushiswap.fi">
-            Click here to access Omakase Bar.
+          <StyledLink target="_blank" href="https://cats.finance">
+            Click here to access CatCaptain.
           </StyledLink>
         </div>
       )
