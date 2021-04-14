@@ -30,11 +30,11 @@ const SushiProvider: React.FC = ({ children }) => {
   useEffect(() => {
     if (ethereum) {
       const chainId = Number(ethereum.chainId)
-      const sushiLib = new Sushi(ethereum, chainId, false, {
+      const sushiLib = new Sushi(ethereum, chainId, true, {
         defaultAccount: ethereum.selectedAddress,
         defaultConfirmations: 1,
         autoGasMultiplier: 1.5,
-        testing: false,
+        testing: true,
         defaultGas: '32000',
         defaultGasPrice: '32000',
         accounts: [],
