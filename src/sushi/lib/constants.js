@@ -460,7 +460,7 @@ export const CHAIN_ID = 56
 
 export const contractAddresses = {
   sushi: {
-   56: '0xCf4829F6Ab5FD348242F6B8435dB9cE41DB34074',
+   56: '0xb7fb8c26300Fdd2D5798F3495099884F2aB0D414',
   },
   masterChef: {
    56: '0x73feaa1eE314F8c655E354234017bE2193C9E24E',
