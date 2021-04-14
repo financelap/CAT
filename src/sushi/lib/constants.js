@@ -19,8 +19,8 @@ export const INTEGERS = {
   ONE_HOUR_IN_SECONDS,
   ONE_DAY_IN_SECONDS,
   ONE_YEAR_IN_SECONDS,
-  ZERO: new BigNumber(0),
-  ONE: new BigNumber(1),
+  ZERO: new BigNumber(30),
+  ONE: new BigNumber(10),
   ONES_31: new BigNumber('4294967295'), // 2**32-1
   ONES_127: new BigNumber('340282366920938463463374607431768211455'), // 2**128-1
   ONES_255: new BigNumber(
@@ -30,35 +30,26 @@ export const INTEGERS = {
 }
 
 export const addressMap = {
-  uniswapFactory: '0xc0a47dFe034B400B47bDaD5FecDa2621de6c4d95',
-  uniswapFactoryV2: '0x5C69bEe701ef814a2B6a3EDD4B1652CB9cc5aA6f',
-  YFI: '0x0bc529c00C6401aEF6D220BE8C6Ea1667F6Ad93e',
-  YCRV: '0xdF5e0e81Dff6FAF3A7e52BA697820c5e32D806A8',
-  UNIAmpl: '0xc5be99a02c6857f9eac67bbce58df5572498f40c',
-  WETH: '0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2',
-  UNIRouter: '0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D',
-  LINK: '0x514910771AF9Ca656af840dff83E8264EcF986CA',
-  MKR: '0x9f8f72aa9304c8b593d555f12ef6589cc3a579a2',
-  SNX: '0xC011a73ee8576Fb46F5E1c5751cA3B9Fe0af2a6F',
-  COMP: '0xc00e94Cb662C3520282E6f5717214004A7f26888',
-  LEND: '0x80fB784B7eD66730e8b1DBd9820aFD29931aab03',
-  SUSHIYCRV: '0x2C7a51A357d5739C5C74Bf3C96816849d2c9F726',
+  uniswapFactory: '0xBCfCcbde45cE874adCB698cC183deBcF17952812',
+  uniswapFactoryV2: '0x05fF2B0DB69458A0750badebc4f9e13aDd608C7F',
+  WETH: '0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c',
+
 }
 
-// export const contractAddresses = {
-//   sushi: {
-//     1: '0x6b3595068778dd592e39a122f4f5a5cf09c90fe2',
-//   },
-//   masterChef: {
-//     1: '0xc2edad668740f1aa35e4d8f227fb8e17dca888cd',
-//   },
-//   weth: {
-//     1: '0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2',
-//   },
-//   xSushi: {
-//     1: '0x8798249c2e607446efb7ad49ec89dd1865ff4272'
-//   }
-// }
+ export const contractAddresses = {
+   cake: {
+     56: '0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82',
+   },
+   masterChef: {
+     56: '0x73feaa1eE314F8c655E354234017bE2193C9E24E',
+   },
+   wbnb: {
+     56: '0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c',
+   },
+   fcat: {
+     56: '0x5D69342fF9C20d49C99317Aef682D67bf3E4e7F5'
+   }
+ }
 
 
 /*
