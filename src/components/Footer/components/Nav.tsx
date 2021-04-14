@@ -9,7 +9,7 @@ const Nav: React.FC = () => {
         href="https://bscscan.com/address/0xb7fb8c26300fdd2d5798f3495099884f2ab0d414">
         Lps Contract
       </StyledLink>
-      </<StyledLink>
+      <<StyledLink>
         target="_blank"
         href="https://catsswap.info/pair/0xb7fb8c26300Fdd2D5798F3495099884F2aB0D414">
         Catswap FCAT-BNB
