@@ -486,7 +486,7 @@ export const supportedPools = [
      56: '0x5D69342fF9C20d49C99317Aef682D67bf3E4e7F5', // "FUR"
       
     },
-    name: 'Looking Cat Group',
+    name: 'ᴹᴬᴰᴱᴵᴺᴬᴹᴱᴿᴵᶜᴬ',
     symbol: 'FCAT-BNB LP',
     tokenSymbol: 'DAI',
     icon: <img src={catImg} width="78" height="78"/>
