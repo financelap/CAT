@@ -24,7 +24,7 @@ const Staking: React.FC = () => {
             <Route exact path={path}>
               <PageHeader
                 icon={<img src={chef} height="120" />}
-                subtitle="Welcome to the FCAT Market, stake Fur to earn Fur."
+                subtitle="Welcome to the USDT Market, stake USDT to earn Fur."
                 title="Irasshaimase!"
               />
             </Route>
