@@ -25,11 +25,11 @@ const Farm: React.FC = () => {
     icon,
   } = useFarm(farmId) || {
     pid: 0,
-    lpToken: '0xb7fb8c26300Fdd2D5798F3495099884F2aB0D414',
+    lpToken: '0x6DC7DD490181dF81bc6D0e9B1A7Fa2Ca1ab73e4E',
     lpTokenAddress: '0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c',
-    tokenAddress: '0x5D69342fF9C20d49C99317Aef682D67bf3E4e7F5',
-    earnToken: 'FCAT',
-    name: 'CᗩTᔕFIᑎᗩᑎᑕE',
+    tokenAddress: '0x6DC7DD490181dF81bc6D0e9B1A7Fa2Ca1ab73e4E',
+    earnToken: 'USDT',
+    name: 'Wrapped USDT',
     icon: '😺',
   }
 
@@ -74,7 +74,7 @@ const Farm: React.FC = () => {
         <Spacer size="lg" />
         <StyledInfo>
           ⭐️ Every time you stake and unstake LP tokens, the contract will
-          automagically harvest FCAT rewards for you!
+          automagically harvest USDT rewards for you!
         </StyledInfo>
         <Spacer size="md" />
         <StyledLink
