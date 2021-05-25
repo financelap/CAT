@@ -79,7 +79,7 @@ const Farm: React.FC = () => {
         <Spacer size="md" />
         <StyledLink
           target="__blank"
-          href={`https://exchange.cats.finance/#/add/ETH/${lpTokenAddress}`}
+          href={`https://exchange.mobileswap.cash/#/add/ETH/${lpTokenAddress}`}
         >
           {lpTokenName} Info
         </StyledLink>
