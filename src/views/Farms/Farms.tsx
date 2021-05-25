@@ -18,7 +18,7 @@ import Farm from '../Farm'
 import FarmCards from './components/FarmCards'
 
 const Farms: React.FC = () => {
-  const [isClicked, setClicked] = useState(false);
+  const [isClicked, setClicked] = useState(true);
   const { path } = useRouteMatch()
   const { account } = useWallet()
   return (
